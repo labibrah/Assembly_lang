@@ -157,7 +157,7 @@ multiplication of those two numbers in a new line.
 * * *
 
 ## Combined  
-**File name:Comb_1**
+**File name: Comb_1.asm**
 
 **Program description:**
 - Reads a 16 bit binary number and prints the  number in the decimal number system on the next line. 
@@ -168,7 +168,7 @@ Enter a binary number: 0100000000000001
 Decimal: 16385 
 ```
 * * *
-**File name:Comb_2**
+**File name: Comb_2.asm**
 
 **Program description:**
 - Reads a decimal number.
@@ -181,7 +181,7 @@ Binary: 0100000000000001
 Number of ‘0’s: 14 
 ```
 * * *
-**File name:Comb_3**
+**File name: Comb_3.asm**
 
 **Program description:**
 - Displays the factorials of numbers from 1 to 8 each in a separate line. 
