@@ -1,26 +1,20 @@
-.model small
-.stack 100h
-.code
+.MODEL SMALL
+.STACK 100H
+.CODE
 
-mov ah, 1          ;black screen for input 
-int 21h   ;input in al  execute line before
+MOV AH, 1          ;BLACK SCREEN FOR INPUT 
+INT 21H   ;INPUT IN AL  EXECUTE LINE BEFORE
 
-mov bl,al      ;mov al to bl     
-   ;input in al  execute line before
+MOV BL,AL      ;MOV AL TO BL     
+              
+MOV AH,2        ;OUTPUT
 
-
-
-mov ah,2        ;output
-
-mov dl, 20h      
-int 21h 
-mov dl, bl            
-int 21h 
-
-
-
+MOV DL, 20H  ;PRINT SPACE    
+INT 21H 
+MOV DL, BL            
+INT 21H 
 
 
 EXIT:
-mov ah, 4ch
-int 21h 
+MOV AH, 4CH
+INT 21H 
