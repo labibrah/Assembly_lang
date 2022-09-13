@@ -3,10 +3,10 @@ Assembly language programming done for Intel 8086 microprocessor in Emu8086 appl
 # Table of contents
 1. [Functions](#functions)
 2. [Variables and Arrays](#variables-and-arrays)
-3. [Flow Control Instructions](#flow-control-instructions)
-4. [Library Functions (using macros/procedures)](#library-functions-using-macros-and-procedures)
-5. [Arithmetic and Logic Instructions](#arithmetic-and-logic-instructions)
-6. [Bit Shift](#bit-shift)
+3. [Library Functions (using macros/procedures)](#library-functions-using-macros-and-procedures)
+4. [Flow Control Instructions](#flow-control-instructions)
+5. [Bit Shift](#bit-shift)
+6. [Arithmetic and Logic Instructions](#arithmetic-and-logic-instructions)
 7. [Stack and Procedure](#stack-and-procedure)
 8. [Combined](#combined)
 
@@ -14,7 +14,7 @@ Assembly language programming done for Intel 8086 microprocessor in Emu8086 appl
  
 ##  Functions 
 
-**File name:**
+**File name:Func_1.asm**
 
 **Program description:** 
 - Takes 1 single-key input 
@@ -26,7 +26,7 @@ Assembly language programming done for Intel 8086 microprocessor in Emu8086 appl
 E E
 ```
 * * *
-**File name:**
+**File name:Func_2.asm**
 
 **Program description:**
 - Takes 2 single-key inputs 
@@ -38,16 +38,16 @@ E E
 k2 k2
 ```
 * * *
-**File name:**
+**File name:Func_3_p1.asm and Func_3_p2.asm**
 
 **Program description:**
-- Takes 2 single-key inputs, displays the inputs in reverse order. 
+- Takes 2 single-key inputs, displays the inputs in reverse order (Part 1). 
 
 **Sample input and output:**
 ```dos
 4FF4
 ```
-- Takes 3 single-key inputs, display the inputs in reverse order. A space separates the inputs and outputs 
+- Takes 3 single-key inputs, display the inputs in reverse order. A space separates the inputs and outputs (Part 2)
 
 **Sample input and output:**
 ```dos
@@ -94,6 +94,24 @@ night23
 32thgin
 ```
 * * *
+
+
+## Library Functions using macros and procedures
+**File name:**
+
+**Program description:**
+- Prompts the user to enter two numbers.
+- Takes the inputs and shows the difference between the two numbers.  
+* * *
+**File name:**
+
+**Program description:**
+- Prompts the user to enter two numbers, take the inputs and shows the 
+multiplication of those two numbers in a new line. 
+- Clear the window and takes a third input as “divisor” and divides the multiplied result.
+- Shows the answer in a new line.  
+* * *
+
 ## Flow Control Instructions
 **File name:**
 
@@ -115,36 +133,25 @@ night23
 - Prints letters A-Z with each character in a newline
 * * *
 
-## Library Functions using macros and procedures
-**File name:**
+## Bit Shift
+**File name:Bit_Shift_1**
 
 **Program description:**
-- Prompts the user to enter two numbers.
-- Takes the inputs and shows the difference between the two numbers.  
-* * *
-**File name:**
-
-**Program description:**
-- Prompts the user to enter two numbers, take the inputs and shows the 
-multiplication of those two numbers in a new line. 
-- Clear the window and takes a third input as “divisor” and divides the multiplied result.
-- Shows the answer in a new line.  
+- Reads  8  numbers  (using  scan_num). 
+- Calculates  the  average  (using  bit-shift  instructions)  and  displays  them  on  the screen. 
 * * *
 
 ## Arithmetic and Logic Instructions
-**File name:**
+**File name:AL_1.asm**
 
 **Program description:**
-- Reads  8  numbers  (using  scan_num). 
-- Calculates  the  average  (using  bit-shift  instructions)  and  displays  them  on  the screen. 
+- Reads a number (using  scan_num). 
+- If number is even, prints "EVEN" else if the number is odd, prints "ODD" (check using logic instructions)
 * * *
-
-## Bit Shift
-**File name:**
+**File name:AL_2.asm**
 
 **Program description:**
-- Reads  8  numbers  (using  scan_num). 
-- Calculates  the  average  (using  bit-shift  instructions)  and  displays  them  on  the screen. 
+- Prints 7 and 8 factorials in a new line
 * * *
 
 ## Stack and Procedure 
@@ -153,7 +160,7 @@ multiplication of those two numbers in a new line.
 **Program description:**
 - Takes 15 single-key inputs. When the given size is exceeded, shows the line 
 “the given size exceeded” if not, shows the output line in both normal order and in reverse order.
-- If the stack is empty shows the line “the stack is empty”.
+- If the stack is empty shows the line “The stack is empty”.
 * * *
 
 ## Combined  
