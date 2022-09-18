@@ -55,7 +55,7 @@ k2 k2
 ```
 * * *
 ## Variables and Arrays
-**File name:**
+**File name:Var_array_1.asm**
 
 **Program description:**
 - Defines a string with lower-case characters and prints it in uppercase characters. 
@@ -66,7 +66,7 @@ hello
 HELLO 
 ```
 * * *
-**File name:**
+**File name:Var_array_2.asm**
 
 **Program description:**
 - Creates two arrays of size 5. 
@@ -80,7 +80,7 @@ HELLO
 2345e 
 ```
 * * *
-**File name:**
+**File name:Var_array_3.asm**
 
 **Program description:**
 - Creates two arrays of size 7. 
@@ -155,7 +155,7 @@ multiplication of those two numbers in a new line.
 * * *
 
 ## Stack and Procedure 
-**File name:**
+**File name:Stack_Procedure_1.asm**
 
 **Program description:**
 - Takes 15 single-key inputs. When the given size is exceeded, shows the line 
