@@ -97,19 +97,18 @@ night23
 
 
 ## Library Functions using macros and procedures
-**File name:**
+**File name: Lib_1.asm**
 
 **Program description:**
 - Prompts the user to enter two numbers.
 - Takes the inputs and shows the difference between the two numbers.  
-* * *
-**File name:**
 
-**Program description:**
-- Prompts the user to enter two numbers, take the inputs and shows the 
-multiplication of those two numbers in a new line. 
-- Clear the window and takes a third input as “divisor” and divides the multiplied result.
-- Shows the answer in a new line.  
+**Sample input and output:**
+```dos
+Enter a number: 10
+Enter a second number: 2
+The difference is: 8
+```
 * * *
 
 ## Flow Control Instructions
