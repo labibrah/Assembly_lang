@@ -14,7 +14,7 @@ Assembly language programming done for Intel 8086 microprocessor in Emu8086 appl
  
 ##  Functions 
 
-**File name:Func_1.asm**
+**File name: Func_1.asm**
 
 **Program description:** 
 - Takes 1 single-key input 
@@ -26,7 +26,7 @@ Assembly language programming done for Intel 8086 microprocessor in Emu8086 appl
 E E
 ```
 * * *
-**File name:Func_2.asm**
+**File name: Func_2.asm**
 
 **Program description:**
 - Takes 2 single-key inputs 
@@ -38,7 +38,7 @@ E E
 k2 k2
 ```
 * * *
-**File name:Func_3_p1.asm and Func_3_p2.asm**
+**File name: Func_3_p1.asm and Func_3_p2.asm**
 
 **Program description:**
 - Takes 2 single-key inputs, displays the inputs in reverse order (Part 1). 
@@ -55,7 +55,7 @@ k2 k2
 ```
 * * *
 ## Variables and Arrays
-**File name:Var_array_1.asm**
+**File name: Var_array_1.asm**
 
 **Program description:**
 - Defines a string with lower-case characters and prints it in uppercase characters. 
@@ -66,7 +66,7 @@ hello
 HELLO 
 ```
 * * *
-**File name:Var_array_2.asm**
+**File name: Var_array_2.asm**
 
 **Program description:**
 - Creates two arrays of size 5. 
@@ -80,7 +80,7 @@ HELLO
 2345e 
 ```
 * * *
-**File name:Var_array_3.asm**
+**File name: Var_array_3.asm**
 
 **Program description:**
 - Creates two arrays of size 7. 
@@ -113,7 +113,7 @@ multiplication of those two numbers in a new line.
 * * *
 
 ## Flow Control Instructions
-**File name:**
+**File name: Flow_cont_1.asm**
 
 **Program description:**
 - Takes a user input.
@@ -121,7 +121,7 @@ multiplication of those two numbers in a new line.
 - If it is 2 or 4, displays “E”. if it is anything else, does nothing. 
 
 * * *
-**File name:**
+**File name: Flow_cont_2.asm**
 
 **Program description:**
 -  Reads a character and checks if the input contains an even number.
@@ -129,12 +129,12 @@ multiplication of those two numbers in a new line.
 * * *
 **File name:**
 
-**Program description:**
+**Program description: Flow_cont_3.asm**
 - Prints letters A-Z with each character in a newline
 * * *
 
 ## Bit Shift
-**File name:Bit_Shift_1**
+**File name: Bit_Shift_1.asm**
 
 **Program description:**
 - Reads  8  numbers  (using  scan_num). 
@@ -142,20 +142,20 @@ multiplication of those two numbers in a new line.
 * * *
 
 ## Arithmetic and Logic Instructions
-**File name:AL_1.asm**
+**File name: AL_1.asm**
 
 **Program description:**
 - Reads a number (using  scan_num). 
 - If number is even, prints "EVEN" else if the number is odd, prints "ODD" (check using logic instructions)
 * * *
-**File name:AL_2.asm**
+**File name: AL_2.asm**
 
 **Program description:**
 - Prints 7 and 8 factorials in a new line
 * * *
 
 ## Stack and Procedure 
-**File name:Stack_Procedure_1.asm**
+**File name: Stack_Procedure_1.asm**
 
 **Program description:**
 - Takes 15 single-key inputs. When the given size is exceeded, shows the line 
